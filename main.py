@@ -1,4 +1,4 @@
-class Car():
+class Car:
     """description of the car"""
 
     def __init__(self, color, horsepower):
