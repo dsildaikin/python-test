@@ -1,16 +1,16 @@
-# This is a sample Python script.
+class Car():
+    """description of the car"""
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+    def __init__(self, color, horsepower):
+        """car properties"""
+        self.color = color
+        self.horsepower = horsepower
+
+    def start(self):
+        """car starts"""
+        print(f'{self.color} car with {self.horsepower} horsepower started up')
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+Car1 = Car('black', 612)
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('Привет')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+Car1.start()
